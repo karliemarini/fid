@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F98B8B;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main {
+    margin: 2rem;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #F98B8B;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Custom Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
+
+h1, h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* Specific Page Styles */
+body.index {
+    background-color: #f4ba9e;
+}
+
+body.about {
+    background-color: #FFC0CB;
+}
+
+body.events {
+    background-color: #FFB6C1;
+}
+
+body.training {
+    background-color: #FFE4E1;
+}
+
+body.blog {
+    background-color: #FFA07A;
+}
+
+body.contact {
+    background-color: #FFF0F5;
+}
